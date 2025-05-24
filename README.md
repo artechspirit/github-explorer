@@ -71,6 +71,7 @@ module.exports = {
 4. Add Environtment file `.env` to the root project
 ```
 GITHUB_API=https://api.github.com
+GITHUB_TOKEN=<Your Github Token>
 ```
 
 5. Run the development server:
