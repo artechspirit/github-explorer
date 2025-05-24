@@ -1,4 +1,4 @@
-export const GITHUB_API = "https://api.github.com";
+export const GITHUB_API = process.env.GITHUB_API;
 
 export async function getRepos(username: string) {
   const res = await fetch(`${GITHUB_API}/users/${username}/repos`, {
