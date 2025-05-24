@@ -16,7 +16,7 @@ A sleek, modern Next.js application to explore GitHub users and their repositori
 
 ## Demo
 
-\[Add demo URL here if deployed]
+[https://github-explorer-six-tawny.vercel.app/](Demo)
 
 ## Tech Stack
 
