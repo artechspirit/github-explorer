@@ -38,7 +38,7 @@ A sleek, modern Next.js application to explore GitHub users and their repositori
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/github-explorer.git
+git clone https://github.com/artechspirit/github-explorer.git
 cd github-explorer
 ```
 
