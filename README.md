@@ -68,7 +68,12 @@ module.exports = {
 };
 ```
 
-4. Run the development server:
+4. Add Environtment file `.env` to the root project
+```
+GITHUB_API=https://api.github.com
+```
+
+5. Run the development server:
 
 ```bash
 npm run dev
