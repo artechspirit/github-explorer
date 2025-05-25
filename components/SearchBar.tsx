@@ -24,7 +24,7 @@ export default function SearchBar() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center justify-center mt-7 max-w-md mx-auto px-4"
+      className="flex relative items-center justify-center mt-7 max-w-md mx-auto px-4"
       role="search"
       aria-label="Search GitHub username"
     >
@@ -72,7 +72,7 @@ export default function SearchBar() {
       {error && (
         <p
           id="error-message"
-          className="text-red-600 mt-2 text-sm absolute top-full left-0 max-w-md mx-auto"
+          className="text-red-600 mt-2 text-sm absolute top-full left-[20px] max-w-md mx-auto"
           role="alert"
         >
           {error}
