@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useGitHub } from "@/context/GithubContext";
-import { FaGithub, FaSearch } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export default function SearchBar() {
   const [input, setInput] = useState("");

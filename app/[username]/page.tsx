@@ -1,7 +1,10 @@
-import ProjectCard from "@/components/ProjectCard";
+import dynamic from "next/dynamic";
+const ProjectCard = dynamic(() => import("@/components/ProjectCard"));
 import { getRepos, getUser } from "@/lib/githubApi";
 import { Repo, GitHubUser } from "@/types/github";
 import Image from "next/image";
+
+export const revalidate = 60;
 
 export default async function UserPage({
   params,
@@ -26,6 +29,7 @@ export default async function UserPage({
               alt={user.name || user.login}
               width={80}
               height={80}
+              priority
               className="rounded-full shadow-md border-2 border-white"
             />
             <div className="text-center sm:text-left">

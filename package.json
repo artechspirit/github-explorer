@@ -14,10 +14,10 @@
     "next": "15.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-window": "^1.8.11"
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^15.4.0-canary.51",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
